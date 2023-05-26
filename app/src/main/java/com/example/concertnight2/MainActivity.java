@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 story += "\nYou see that a group of strangers started a game of " + sport + ", so you ditch your " + relationshipType + " and join them instead.";
 
 
-                secondActivity.putExtra("story");
+                secondActivity.putExtra("story", story);
 
                 startActivity(secondActivity);
             }

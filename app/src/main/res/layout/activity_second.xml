@@ -13,10 +13,16 @@
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="272dp"
+            app:srcCompat="@drawable/concert_image" />
+
         <TextView
             android:id="@+id/tv_story"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="57dp"
             android:text="..." />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
