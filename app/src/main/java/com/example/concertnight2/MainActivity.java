@@ -37,16 +37,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                String story = "You just got tickets to see your favorite artist, " + name + " in concert tonight!";
-                story += "\nYou are very excited because the artist is extremely " + adjective + " and always " + verb + "s on stage.";
-                story += "\nYou usually do not like " + musicGenre + " music, but you make an exception because the tickets were free and you are cheap.";
-                story += "\nYou and your " + relationshipType + " try to drive to the concert, but your car dies on the way there.";
-                story += "\nAfter being stuck on the freeway for 20 minutes, you and your " + relationshipType + " decide to ditch the car and take a " + modeOfTransport + " instead.";
-                story += "\nYou guys are on your way again, until you spot a " + animal + " in the middle of the road";
-                story += "\nYou are confused because you never finished school and you thought that all " + animal + "s died in the " + season + ".";
-                story += "\nThe " + animal + verb + "s up to you and bites you, ripping your favorite " + clothingItem + ".";
-                story += "\nYou are so frustrated that you don't even want to go to " + name + "'s concert anymore.";
-                story += "\nYou see that a group of strangers started a game of " + sport + ", so you ditch your " + relationshipType + " and join them instead.";
+                String story = "You just got tickets to see your favorite artist, " + name.getText() + " in concert tonight!";
+                story += "\nYou are very excited because the artist is extremely " + adjective.getText() + " and always " + verb.getText() + "s on stage.";
+                story += "\nYou usually do not like " + musicGenre.getText() + " music, but you make an exception because the tickets were free and you are cheap.";
+                story += "\nYou and your " + relationshipType.getText() + " try to drive to the concert, but your car dies on the way there.";
+                story += "\nAfter being stuck on the freeway for 20 minutes, you and your " + relationshipType.getText() + " decide to ditch the car and take a " + modeOfTransport.getText() + " instead.";
+                story += "\nYou guys are on your way again, until you spot a " + animal.getText() + " in the middle of the road";
+                story += "\nYou are confused because you never finished school and you thought that all " + animal.getText() + "s died in the " + season.getText() + ".";
+                story += "\nThe " + animal.getText() + verb.getText() + "s up to you and bites you, ripping your favorite " + clothingItem.getText() + ".";
+                story += "\nYou are so frustrated that you don't even want to go to " + name.getText() + "'s concert anymore.";
+                story += "\nYou see that a group of strangers started a game of " + sport.getText() + ", so you ditch your " + relationshipType.getText() + " and join them instead.";
 
 
                 secondActivity.putExtra("story", story);
